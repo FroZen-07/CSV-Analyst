@@ -8,8 +8,8 @@ load_dotenv()
 
 # UI
 
-st.title("Let's do some analysis on CSV: ")
-st.header("Please upload your CSV files here: ")
+st.title("CSV Analyst: ")
+st.header("Please upload your CSV file: ")
 
 data = st.file_uploader("Upload CSV File", type="csv")
 
